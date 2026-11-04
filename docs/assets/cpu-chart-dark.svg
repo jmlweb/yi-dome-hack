@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 268" width="720" height="268" role="img" aria-label="CPU use, stock against patched: rmm 52.8 to 21.0 percent, all processes 60.4 to about 25 percent" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<text x="0" y="20" font-size="16" font-weight="700" fill="#f0f6fc">Camera CPU use, %</text>
+<rect x="0" y="36" width="12" height="12" rx="3" fill="#C4722A"/>
+<text x="18" y="46" font-size="13" fill="#9198a1">stock yi-hack-v5</text>
+<rect x="170" y="36" width="12" height="12" rx="3" fill="#4F8BE6"/>
+<text x="188" y="46" font-size="13" fill="#9198a1">yi-dome-hack</text>
+<line x1="170.0" y1="66" x2="170.0" y2="228" stroke="#3d444d"/>
+<text x="170.0" y="246" font-size="12" text-anchor="middle" fill="#9198a1">0</text>
+<line x1="318.0" y1="66" x2="318.0" y2="228" stroke="#3d444d"/>
+<text x="318.0" y="246" font-size="12" text-anchor="middle" fill="#9198a1">20</text>
+<line x1="466.0" y1="66" x2="466.0" y2="228" stroke="#3d444d"/>
+<text x="466.0" y="246" font-size="12" text-anchor="middle" fill="#9198a1">40</text>
+<line x1="614.0" y1="66" x2="614.0" y2="228" stroke="#3d444d"/>
+<text x="614.0" y="246" font-size="12" text-anchor="middle" fill="#9198a1">60</text>
+<text x="158" y="102" font-size="14" text-anchor="end" fill="#f0f6fc">rmm</text>
+<rect x="170" y="74" width="390.71999999999997" height="22" rx="4" fill="#C4722A"/>
+<text x="568.72" y="90" font-size="13" font-weight="700" fill="#f0f6fc">52.8 %</text>
+<rect x="170" y="100" width="155.4" height="22" rx="4" fill="#4F8BE6"/>
+<text x="333.4" y="116" font-size="13" font-weight="700" fill="#f0f6fc">21.0 %</text>
+<text x="158" y="190" font-size="14" text-anchor="end" fill="#f0f6fc">all processes</text>
+<rect x="170" y="162" width="446.96000000000004" height="22" rx="4" fill="#C4722A"/>
+<text x="624.96" y="178" font-size="13" font-weight="700" fill="#f0f6fc">60.4 %</text>
+<rect x="170" y="188" width="185.0" height="22" rx="4" fill="#4F8BE6"/>
+<text x="363.0" y="204" font-size="13" font-weight="700" fill="#f0f6fc">~25 %</text>
+</svg>
