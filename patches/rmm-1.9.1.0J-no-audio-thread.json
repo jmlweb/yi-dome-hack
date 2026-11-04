@@ -1,0 +1,14 @@
+{
+  "id": "rmm-1.9.1.0J-no-audio-thread",
+  "task": "TSK-003",
+  "adr": ["ADR-0002", "ADR-0005"],
+  "description": "Do not start the rmm audio capture thread (entry 0x36cf8, literal at vaddr 0x2c698): replace the bl pthread_create at vaddr 0x2c218 with mov r0,#0 so main sees success and continues. No mic capture, speex preprocessing or AAC encoding runs. The pthread_t slot at sp+32 is not read again in main.",
+  "base": "Yi Dome 720p firmware 1.9.1.0J_201809191135, /home/app/rmm (md5 9e1e664cab590d2a6004da06c6e58d0e)",
+  "source_reference": "docs/research/rmm.md, Ways to modify rmm, patch C",
+  "file_offset": "0x24218",
+  "vaddr": "0x2c218",
+  "original_hex": "f6 f4 ff eb",
+  "replacement_hex": "00 00 a0 e3",
+  "input_sha256": "ce4e24aab5539289271f9cdd4a005f896669cfb368d8733ceeaf388670e50050",
+  "output_sha256": "60a399ac02d109b0aa75012d7c260081da4d757456767d297e9767b9af4e9956"
+}

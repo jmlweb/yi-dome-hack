@@ -1,0 +1,14 @@
+{
+  "id": "rmm-1.9.1.0J-skip-speex-preprocess",
+  "task": "TSK-003",
+  "adr": ["ADR-0002", "ADR-0005"],
+  "description": "Skip the mic noise preprocessing in the rmm audio loop: nop the bl speex_preprocess_run at vaddr 0x36e64. AAC encoding (HI_MPI_AENC_SendFrame) still runs, so audio frames keep flowing to mp4record. The call's return value is unused (r3 is reloaded at 0x36e68).",
+  "base": "Yi Dome 720p firmware 1.9.1.0J_201809191135, /home/app/rmm (md5 9e1e664cab590d2a6004da06c6e58d0e)",
+  "source_reference": "docs/research/rmm.md, Ways to modify rmm, patch A",
+  "file_offset": "0x2ee64",
+  "vaddr": "0x36e64",
+  "original_hex": "d6 88 04 eb",
+  "replacement_hex": "00 00 a0 e1",
+  "input_sha256": "ce4e24aab5539289271f9cdd4a005f896669cfb368d8733ceeaf388670e50050",
+  "output_sha256": "4183cd12762c5095973a19403227e813c00306f7cc8359d420555102a9b29b2f"
+}

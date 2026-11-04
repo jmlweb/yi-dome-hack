@@ -1,0 +1,7 @@
+mac_start 2026-10-22T00:24:57Z
+ntpd: reply from 185.125.190.58: offset:-0.000350 delay:0.032442 status:0x24 strat:2 refid:0x0463581d rootdelay:0.007065 reach:0x01
+ntpd: reply from 185.125.190.58: offset:-0.000288 delay:0.033672 status:0x24 strat:2 refid:0x0463581d rootdelay:0.007065 reach:0x03
+ntpd: reply from 185.125.190.58: offset:-0.006847 delay:0.044930 status:0x24 strat:2 refid:0x0463581d rootdelay:0.007065 reach:0x07
+ntpd: reply from 185.125.190.58: offset:-0.000617 delay:0.032954 status:0x24 strat:2 refid:0x0463581d rootdelay:0.007065 reach:0x0f
+anchor_epoch 1792628719 anchor_uptime 1138.65
+start_uptime 1140.21

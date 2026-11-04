@@ -1,0 +1,14 @@
+{
+  "id": "mqttv4-0.4.1-motion-start-e6",
+  "task": "TSK-001",
+  "adr": ["ADR-0002", "ADR-0003"],
+  "description": "Make the IPC_MOTION_START_C match (dst=1 src=2 id 0x00e6) count as a motion start, so tracking-cycle starts reach MQTT. Both branches call handle_ipc_motion_start().",
+  "base": "alienatedsec/yi-hack-v5 0.4.1, yi_dome, bin/mqttv4 (matches camera copy in /tmp/sd/yi-hack-v5/bin)",
+  "source_reference": "roleoroleo/mqttv4 e8fe4b2, include/ipc.h IPC_MOTION_START_C",
+  "file_offset": "0x5928",
+  "vaddr": "0xd928",
+  "original_hex": "04 00 00 00 02 00 00 00 09 70 09 70 00 00 00 00",
+  "replacement_hex": "01 00 00 00 02 00 00 00 e6 00 e6 00 00 00 00 00",
+  "input_sha256": "15f95d70e23d57329d2732e14f76e8c44c54e92feba2960da7c006df37b28dbd",
+  "output_sha256": "80e5d1d7372a8d08e02cc6bdd9c59c18ba73643238fb50c81c5132df031ce972"
+}

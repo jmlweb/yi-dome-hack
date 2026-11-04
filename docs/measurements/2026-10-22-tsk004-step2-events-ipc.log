@@ -1,0 +1,6 @@
+total 24
+-rwxr-xr-x    1 root     root          5564 Oct 21 02:36 tsk001-ac3.log
+-rwxr-xr-x    1 root     root            41 Oct 22 08:25 tsk002-events.log
+-rwxr-xr-x    1 root     root          1617 Oct 22 02:25 tsk002-events.sh
+start_uptime 1140.21
+end_uptime 22741.25
