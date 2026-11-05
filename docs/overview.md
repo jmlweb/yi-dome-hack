@@ -51,7 +51,7 @@ Stop if by 2026-11-15 the patched camera still loses tracking-cycle motion start
 - Hardware: Hi3518EV200, ARMv5 at about 300 MHz, 18.6 MB RAM, uClibc 0.9.33; `rmm` is closed source.
 - Install from the SD card only, with no further flash writes. The flash holds the yi-hack boot hook, which starts the stock Yi apps when no SD payload is present.
 - Build host: Mac (arm64). The hisiv300 cross toolchain is not publicly available; source rebuilds use it if obtained, else a static ARMv5 build (ADR-0007).
-- Credentials and network identifiers live only in `.env`; the repo stays private.
+- Credentials and network identifiers live only in `.env`, never in the repo.
 - Camera runtime changes need the owner's OK.
 
 ## Architecture
